@@ -4,6 +4,10 @@
 
 void Main() {
   ints(n, m);
+  if (n == 1) {
+    wt(1);
+    return;
+  }
   V<int> p(n);
   cin >> p;
   V<tuple<int, int, int>> v;  // {width, left, right}
